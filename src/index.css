@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .slide {
-  animation: slideAnim 25s infinite linear;
+  animation: slideAnim 30s linear infinite;
 }
 
 @keyframes slideAnim {
@@ -11,6 +11,6 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(calc(-250px * 9));
+    transform: translateX(calc(-305px * 9));
   }
 }
